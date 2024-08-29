@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* Reset default margin and padding */
+body, .form-container, .input-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+.bodyadd {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 4rem); /* Adjust for header height */
+    background-color: #eaeaea;
+}
+
+.form-container {
+    max-width: 500px;
+    width: 100%;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-title {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+.input-wrapper {
+    margin-bottom: 1rem;
+}
+
+.input-wrapper label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #fff;
+    background: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #555;
+}

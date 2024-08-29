@@ -1,0 +1,166 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Table container styling */
+.table-container {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 100px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Column-specific styling */
+.name-header {
+    width: 25%;
+}
+
+.email-header {
+    width: 35%;
+}
+
+.contact-header {
+    width: 20%;
+}
+
+.actions-header {
+    width: 20%;
+    text-align: center;
+}
+
+.name-cell {
+    font-weight: bold;
+}
+
+.email-cell {
+    color: #007BFF;
+}
+
+.contact-cell {
+    color: #28A745;
+}
+
+.actions-cell {
+    text-align: center;
+}
+
+/* Link styling as buttons */
+.update-link, .delete-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.update-link {
+    background-color: #007BFF;
+}
+
+.update-link:hover {
+    background-color: #0056b3;
+}
+
+.delete-link {
+    background-color: #dc3545;
+}
+
+.delete-link:hover {
+    background-color: #c82333;
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    margin: 0px 0px 30px 100px;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+}
+
+#search-bar:focus {
+    border-color: #007BFF;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+#search-bar::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
